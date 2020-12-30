@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  background-image: url(../img/background_ps_best.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+
+}
+
+/*******************************/
+/**********Header***************/
+/*******************************/
+
+
+/***************/
+/***Navigatie***/
+/***************/
+nav {
+  padding-top: 230px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  margin: 0 30px 15px 30px;
+  font-family: "Arizonia", helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+nav li a:hover {
+  background: rgb(210, 105, 30, 0.6);
+  border-radius: 10px;
+
+}
+
+.active {
+  background-image: url(../img/snor.png);
+  background-repeat: no-repeat;
+  background-position: 30% 95%;
+}
+
+/***********/
+/***Main***/
+/**********/
+
+
+main {
+  font-family: Roboto Helvetica, sans-serif;
+  font-size: 15px;
+  min-height: 800px;
+
+}
+
+.homeimg {
+  padding: 30px 0px 0px 0px;
+  width: 960px;
+  height: 750px;
+  display: block;
+  /*opacity: 0.6;*/
+  min-height: 750px;
+
+}
+
+
+/********************************/
+/**********Main About************/
+/********************************/
+
+.columns {
+  column-count: 2;
+  padding: 0px 20px 0px 20px;
+  line-height: 22px;
+  margin-top: 60px;
+}
+
+main h2 {
+  letter-spacing: 1px;
+  padding: 10px 0 10px 10px;
+  background-color: rgb(210, 105, 30, 0.6);
+  border-radius: 8px;
+
+}
+
+#WIB {
+  margin-top: 50px;
+}
+
+main a {
+  text-decoration: none;
+  color: #b72a10;
+}
+
+main p {
+  padding: 15px 10px 30px 10px;
+}
+
+.dali_quote,
+.dali_painting {
+  float: right;
+  width: 200px;
+  padding: 15px 10px 0 10px;
+}
+
+.chupa {
+  padding: 10px 10px 10px 10px;
+  float: right;
+  width: 200px;
+}
+
+/************************************************/
+/********Main Gallery*************/
+/************************************************/
+
+#GallTitl {
+  padding: 10px;
+  background-color: rgb(210, 105, 30, 0.6);
+  display: inline;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  float: left;
+  margin: 70px 0 10px 20px;
+}
+
+#galleryJustfyed {
+  margin-top: 30px;
+}
+
+#galleryJustfyed a:hover {
+  transform: scale(1.2);
+}
+
+#galleryJustfyed a {
+  transition: transform .3s;
+}
+
+
+/***********************************************/
+/***************Main Contact*********************/
+/***********************************************/
+
+.contact {
+  padding-top: 100px;
+}
+
+.contactBox {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: rgb(210, 105, 30, 0.6);
+  padding: 30px 80px 30px 30px;
+  border-radius: 10px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contactBox h3 {
+  font-family: "Arizonia", helvetica, sans-serif;
+  font-size: 25px;
+  display: inline;
+  background-color: rgb(66, 162, 255, 0.6);
+  border-radius: 10px;
+  padding: 5px;
+  min-height: 300px;
+}
+
+span {
+  padding-bottom: 50px;
+  max-height: 800px;
+  min-height: 300px;
+}
+
+span h3 {
+  margin-left: 155px;
+  line-height: 70px;
+}
+
+
+.contactRigth {
+  margin-left: 50px;
+}
+
+.contactText {
+  padding: 20px 0 0 20px;
+}
+
+.contactText p {
+  font-size: 15px;
+  line-height: 22px;
+}
+
+#input1,
+#input2 {
+  width: 300px;
+  padding: 10px;
+  margin-left: 70px;
+  opacity: 0.5;
+  border-radius: 5px;
+  max-height: 40px;
+
+}
+
+#textarea,
+#submit {
+  padding: 10px;
+  margin-left: 70px;
+  opacity: 0.6;
+  border-radius: 5px;
+  max-width: 300px;
+  min-width: 300px;
+}
+
+.map {
+  margin-left: 20px;
+  width: 300px;
+  border: solid 8px rgb(66, 162, 255, 0.6);
+  border-radius: 10px;
+}
+
+
+/************/
+/***Footer***/
+/************/
+
+
+
+#fac_ico {
+  padding-top: 60px;
+  transition: transform .2s;
+}
+
+#you_ico {
+  transition: transform .2s;
+}
+
+#insta_ico {
+  padding-top: 70px;
+  transition: transform .2s;
+}
+
+#fac_ico:hover,
+#you_ico:hover,
+#insta_ico:hover {
+  transform: scale(1.2);
+}
+
+footer ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 90px;
+}
+
+#iconsInd {
+  padding-top: 55px;
+}
+
+#iconsAbout {
+  margin-top: -5px;
+}
+
+#iconsGall {
+  padding-top: 24px;
+}
+
+#iconsContact {
+  padding-top: 55px;
+}
